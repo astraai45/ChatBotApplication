@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you with cybersecurity today?"]
+    },
+    {
+      "tag": "malware_general",
+      "patterns": [
+        "What is malware?",
+        "How to prevent malware?",
+        "Tell me about malware types",
+        "How does antivirus work?"
+      ],
+      "responses": [
+        "Malicious software, or shortly malware, denotes a generic term that covers all software programs which deliberately cause damage to systems or other software programs. There exist a broad range of attacking threats trying to sneak into your system, reaching either to your data or core system functionality to derange the ordinary operations."
+        
+      ]
+    },
+    {
+      "tag": "malware_subtypes",
+      "patterns": [
+        "Tell me about viruses",
+        "What are worms?",
+        "Explain ransomware",
+        "What are the subtypes in malware attacks?",
+        "What are different types of malware attacks?",
+        "Types of malware?"
+      ],
+      "responses": [
+        "Malware subtypes generally include viruses, worms, and ransomware. Each subtype has unique characteristics and poses specific challenges."
+        
+      ]
+    },
+    {
+      "tag": "malware_symptoms",
+      "patterns": [
+        "Continuous crashes (e.g. systems, programs, Blue Screen of Death).",
+        "Slow computer performance (e.g. sluggish start, slow when loading applications).",
+        "Unusual experience when surfing on the Internet (e.g. new toolbars popping up, inexplicable redirects).",
+        "Unusual and unfamiliar new desktop icons (e.g. Potentially Unwanted Programs (PUPs)).",
+        "Difficulties with the hard drive (e.g. loud noises, excessive activity on computer).",
+        "Computer storage is inaccessible or corrupted.",
+        "Unusual error messages.",
+        "Unwanted and annoying popup messages.",
+        "Disabled security program.",
+        "No access to critical programs.",
+        "Encrypted files or programs."
+      ],
+      "responses": [
+        "It seems like you are experiencing symptoms that could be related to a malware attack. Malware can manifest in various ways. Here are some symptoms and recommended actions:"
+        
+      ]
+    },
+    {
+      "tag": "malware_challenges",
+      "patterns": ["What are the challenges regarding malware attacks?"],
+      "responses": [
+        "There exist various challenges regarding Malware attacks. One significant challenge is the detection and mitigation of evolutionary or new viruses, which is extremely difficult."
+       
+      ]
+    },
+    {
+      "tag": "malware_impacts",
+      "patterns": ["What are the impacts of malware attacks?"],
+      "responses": [
+        "Malware attacks can have severe impacts, including unauthorized access to confidential data, downtime of the company’s network infrastructure, general disruption or blocking of services, long-term damage to the company’s data and reputation, and money loss or extortion.",
+        "The impacts of malware attacks extend to continuous crashes, slow computer performance, difficulties with internet surfing, new desktop icons, issues with the hard drive, inaccessible or corrupted computer storage, unusual error messages, unwanted popup messages, disabled security programs, loss of access to critical programs, and encrypted files or programs."
+      ]
+    },
+    {
+      "tag": "malware_countermeasures",
+      "patterns": ["How to protect against malware attacks?"],
+      "responses": [
+        
+        "Countermeasures against malware attacks include implementing robust antivirus and anti-malware software on all devices, regularly updating software and operating systems to patch vulnerabilities, educating users about safe online practices and the risks of downloading unknown files, conducting regular system scans for malware detection and removal."
+      ]
+    },
+    {
+      "tag": "phishing_general",
+      "patterns": [
+        "How to recognize phishing emails?",
+        "Can you give me examples of phishing?",
+        "What are the signs of a phishing attack?",
+        "Prevent phishing attacks"
+      ],
+      "responses": [
+        "Phishing attacks rely on the concept of social engineering. During a phishing attack, the cybercriminals' objective is to induce their targets to reveal precious and personal information such as (company) login credentials, credit card information or business data.  Phishers often spoof links or websites or even exploit vulnerabilities of genuine websites where they do hidden and malicious redirects."
+       
+      ]
+    },
+    {
+      "tag": "phishing_subtypes",
+      "patterns": [
+        "What is standard phishing?",
+        "Explain spear phishing",
+        "Tell me about whaling",
+        "What are the subtypes in phishing attacks?",
+        "Different types of phishing attacks?"
+      ],
+      "responses": [
+        "Phishing subtypes generally include standard phishing, spear phishing, and whaling. Each subtype has unique characteristics and poses specific challenges."
+        
+      ]
+    },
+    {
+      "tag": "phishing_symptoms",
+      "patterns": [
+        "Inconsistencies in domain names: e.g. received email from a company using a public domain like '@outlook.com', or misspelt domain names.",
+        "Grammatical (and spelling) errors in emails.",
+        "Email contains threats or generates a sense of urgency.",
+        "Email including suspicious links or attachments.",
+        "Emails asking for login, payment or other personal information.",
+        "Unfamiliar tone or greeting (e.g. when family or employees become too formal).",
+        "Recipient has not started the communication.",
+        "Uncommon requests: E.g. email from IT department sending a link for a security patch for the recipient's computer."
+      ],
+      "responses": [
+        "It seems like you are experiencing symptoms that could be related to a phishing attack. Phishing relies on social engineering to trick individuals. Here are some symptoms and recommended actions:"
+        
+      ]
+    },
+    {
+      "tag": "phishing_challenges",
+      "patterns": ["What are the challenges regarding phishing attacks?"],
+      "responses": [
+        "There exist various challenges regarding Phishing attacks. One of the biggest challenges in the security industry is how to get users to take action to protect themselves. Moreover, such attacks have become so sophisticated that there exist various new attack vectors such as social media (Facebook, Instagram, etc.) or messaging (Skype, MS Teams, Slack)."
+        
+      ]
+    },
+    {
+      "tag": "phishing_impacts",
+      "patterns": ["What are the impacts of phishing attacks?"],
+      "responses": [
+        "Phishing attacks can have severe impacts, including financial damage due to data protection breaches, reputational damage to the company, loss of enterprise value, intellectual property theft, and business disruption due to systems being taken offline."
+      ]
+    },
+    {
+      "tag": "phishing_countermeasures",
+      "patterns": ["How to protect against phishing attacks?"],
+      "responses": [
+        
+        "Countermeasures against phishing attacks involve implementing security awareness training for employees to recognize and report phishing attempts and deploying email filters to block suspicious links and attachments, enhancing overall email security."
+      ]
+    },
+    {
+      "tag": "ddos_general",
+      "patterns": [
+        "What is a DDoS attack?",
+        "How to recognize a DDoS attack?",
+        "Tell me about DDoS attack types",
+        "How to mitigate DDoS attacks?"
+      ],
+      "responses": [
+        "A distributed denial-of-service (DDoS) attack aims to disrupt or even take out online services and their resources. It is similar to a denial-of-service (DoS) attack with the only difference being how the attack is carried out."
+        
+      ]
+    },
+    {
+      "tag": "ddos_subtypes",
+      "patterns": [
+        "What is volumetric DDoS?",
+        "Explain protocol-based DDoS",
+        "Tell me about application layer DDoS",
+        "What are the subtypes in DDoS attacks?",
+        "Different types of DDoS attacks?"
+      ],
+      "responses": [
+        "DDoS subtypes include volumetric DDoS, protocol-based DDoS, and application layer DDoS. Each subtype has unique characteristics and requires specific mitigation techniques."
+        
+      ]
+    },
+    {
+      "tag": "ddos_symptoms",
+      "patterns": [
+        "Website or service becomes unexpectedly slow.",
+        "Website or service becomes all of a sudden unavailable.",
+        "Unable to access a website in the long term.",
+        "Suspect amount of network traffic either from one IP address or a range of different IP addresses.",
+        "Inbound traffic flood from users with similar behavior patterns, including device type, location or simply the version of web browser.",
+        "An inexplicable increase in requests to a website or endpoint.",
+        "Unusual traffic flows (e.g. spikes at odd times of the day or spikes all 20 minutes, etc.).",
+        "Extremely slow access to files.",
+        "Increasing amount of spam emails, trying to overload the network.",
+        "Slow servers responding in minutes instead of seconds (could also be the old equipment or a natural spike from a news event).",
+        "Slow computing performance in general (e.g. taking longer as usual for routine tasks)."
+      ],
+      "responses": [
+        "It seems like you are experiencing symptoms that could be related to a DDoS attack. DDoS attacks aim to disrupt online services. Here are some symptoms and recommended actions:"
+        
+      ]
+    },
+    {
+      "tag": "ddos_challenges",
+      "patterns": ["What are the challenges regarding DDoS attacks?"],
+      "responses": [
+        "There exist various challenges regarding DDoS attacks. Mitigating volume-based DDoS attacks is difficult since they combine reflection/amplification techniques along with botnets.",
+        "One challenge is the detection and mitigation of application layer DDoS attacks, which are harder to identify due to their subtlety."
+        
+      ]
+    },
+    {
+      "tag": "ddos_impacts",
+      "patterns": ["What are the impacts of DDoS attacks?"],
+      "responses": [
+        "DDoS attacks can have severe impacts, including website breakdown affecting reputation, negative impact on several other websites, rising vulnerability of websites to further attacks, lost time and money due to website recreation, and huge loss of revenue in e-commerce due to website downtime."
+      ]
+    },
+    {
+      "tag": "ddos_countermeasures",
+      "patterns": ["How to protect against DDoS attacks?"],
+      "responses": [
+        
+        "Mitigating DDoS attacks involves deploying DDoS mitigation tools, redirecting traffic through DDoS protection services, and collaborating with your ISP to filter malicious traffic.",
+        "Protecting against volumetric DDoS attacks requires a robust infrastructure that can absorb and handle high volumes of traffic.",
+        "For protocol-based DDoS attacks, implementing traffic filtering mechanisms can help prevent the attack traffic from reaching the target.",
+        "Application layer DDoS attacks can be countered by employing web application firewalls (WAFs) and regularly monitoring and optimizing web application performance."
+      ]
+    },
+    {
+      "tag": "send_off",
+      "patterns": ["Thank you", "Goodbye", "See you later", "Farewell"],
+      "responses": ["You're welcome! If you have more cybersecurity questions, feel free to ask. Goodbye!"]
+    }
+  ]
+}
